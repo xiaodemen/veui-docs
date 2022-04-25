@@ -5,9 +5,10 @@
       Header
     </veui-header>
     <veui-layout>
+      <!-- 这里 vh 达不到效果：400 - 2(border) - 40 - 64 = 294 -->
       <veui-sidebar
         sticky
-        style="max-height: 320px;"
+        style="max-height: 294px;"
       >
         <div class="center full">
           Sidebar
